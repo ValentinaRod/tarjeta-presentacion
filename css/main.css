@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.imagenFondo {
+	background: url('../img/laboratoria.jpg');
+	width: 1280px;
+	height: 800px;
+	position: static;
+	top: 100px 
+	bottom: 100px;
+	right: 100px;
+	left: 100px;
+
+}
+
+
+.borde {   /*borde negro*/
+	position: absolute;
+	top: -700px; 
+	bottom: 500px;
+	right: 0px;
+	left: 500px;
+	width: 600px;
+	height: 620px;
+	border-bottom: 880px solid #1C1C1C;
+	border-left: 450px solid transparent;
+
+}
+
+#logo { /* coloco la imagen como id en el html*/
+	
+	width: 600px;
+	height: 300px;
+	position: relative;
+	top: -800px; 
+	bottom: 800px;
+	right: 100px;
+	left: 100px;
+	margin: 0;
+}
+
+#codigoCoder {  /* img laboratoria logo*/
+	width: 120px;
+	height: 100px;
+	position: relative;
+	top: -300px;   
+	bottom: 0;
+	right: 100px;
+	left: 825px;
+	margin: 0;
+
+}
+
+div h1 {  /*Textos*/
+	position:relative;
+	top: -900px;   
+	bottom: 0;
+	right: 100px;
+	left: 870px;
+	margin: 0;
+	color:white;
+	font-size: 60px;
+}
+
+div h2  {
+	position:relative;
+	top: -900px;   
+	bottom: 0;
+	right: 100px;
+	left: 870px;
+	margin: 0;
+	color: #F5DA81;
+	font-size: 40px;
+}
+
+div p {
+	position:relative;
+	top: -800px;   
+	bottom: 0;
+	right: 100px;
+	left: 870px;
+	margin: 0;
+	color: white;
+	font-size: 40px;
+
+}
+
+
+
+
